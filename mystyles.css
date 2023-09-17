@@ -42,4 +42,4 @@ a:active {
   color: yellow;
   background-color: transparent;
 }
-.light-grey,.hover-light-grey:hover,.light-gray,.hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.light-grey,.hover-light-grey:hover,.light-gray,.hover-light-gray:hover{color:#000;background-color:#f1f1f1}
