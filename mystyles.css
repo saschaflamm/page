@@ -18,25 +18,27 @@ p {
   color: black;
   font-family: courier;
 }
-
 a:link {
+  background-color: #3E559B;
   color: green;
-  background-color: transparent;
+  padding: 15px 25px;
+  text-align: center;
   text-decoration: none;
-}a:visited {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
+  display: inline-block;
 }
-
+a:visited {
+  background-color: #5044B3;
+  color: green;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 a:hover {
   color: red;
   background-color: transparent;
-  text-decoration: underline;
 }
-
 a:active {
   color: yellow;
   background-color: transparent;
-  text-decoration: underline;
 }
