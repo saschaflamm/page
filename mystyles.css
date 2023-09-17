@@ -1,9 +1,42 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 body {
   background-color: #F4D9A4;
 }
 h1 {
   text-align:center;
+  color: black;
+  font-family: verdana;
+  font-size: 300%;
+}
+h2,h3,h4,h5 {
+  text-align:center;
+  color: black;
+  font-family: verdana;
 }
 p {
+  color: black;
+  font-family: courier;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
   color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
