@@ -1,5 +1,7 @@
 body {
   background-color: #F4D9A4;
+  font-family: Helvetica, sans-serif;
+  color: black;
   /*background-image: url("webpage_img/_MG_0302.jpg");
   background-repeat: no-repeat;*/
 }
@@ -21,21 +23,27 @@ aside {
 .menu {float: left;
   width: 20%;
   text-align: center;}
-.menu a {background-color: #e5e5e5;
+.menu a {
+  background-color: #e5e5e5;
   padding: 8px;
   margin-top: 7px;
   display: block;
   width: 100%;
-  color: black;}
-.main {float: left;
+  color: black;
+}
+.main {
+  float: left;
   width: 60%;
-  padding: 0 20px;}
-.right {background-color: #e5e5e5;
+  padding: 0 20px;
+}
+.right {
+  background-color: #e5e5e5;
   float: left;
   width: 20%;
   padding: 15px;
   margin-top: 7px;
-  text-align: center;}
+  text-align: center;
+}
 
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
@@ -43,30 +51,36 @@ aside {
     width: 100%;
   }
 }
-.standard{
-  h1 {text-align:center;
+.standard {
+  h1 {
+    text-align:center;
+    color: black;
+    font-family: verdana;
+    font-size: 300%;
+  }
+h2,h3,h4,h5 {
+  text-align:center;
   color: black;
   font-family: verdana;
-  font-size: 300%;}
-h2,h3,h4,h5 {text-align:center;
-  color: black;
-  font-family: verdana;}
-p {color: black;
-  font-family: courier;}
-a:link {background-color: #3E559B;
+}
+p {color: black;font-family: courier;}
+a:link {
+  background-color: #3E559B;
   color: green;
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;}
-a:visited {background-color: #5044B3;
+  display: inline-block;
+}
+a:visited {
+  background-color: #5044B3;
   color: green;
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;}
-a:hover {color: red;
-  background-color: transparent;}
+  display: inline-block;
+}
+a:hover {color: red;background-color: transparent;}
 a:active {color: yellow;
   background-color: transparent;}
 }
