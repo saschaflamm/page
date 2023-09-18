@@ -19,18 +19,12 @@ aside {
   gap: 5vw 10vw;
 }*/
 
-img.crop-center{
-    height: 200px;
+.crop-center img {
     width: 100% !important;
+    height: 50px;
     object-fit: cover;
     object-position: top center;
 }
-<!-- #titelbild img{
-	position: absolute;
-	clip: rect(20px 100px 70px 40px);
-	overflow: hidden;
-}
--->
 
 * {box-sizing: border-box;}
 .menu {float: left;
