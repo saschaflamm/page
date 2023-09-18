@@ -3,6 +3,15 @@ body {
   /*background-image: url("webpage_img/_MG_0302.jpg");
   background-repeat: no-repeat;*/
 }
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
 * {box-sizing: border-box;}
 .menu {float: left;
   width: 20%;
@@ -55,12 +64,4 @@ a:hover {color: red;
   background-color: transparent;}
 a:active {color: yellow;
   background-color: transparent;}
-}
-aside {
-  width: 30%;
-  padding-left: 15px;
-  margin-left: 15px;
-  float: right;
-  font-style: italic;
-  background-color: lightgray;
 }
