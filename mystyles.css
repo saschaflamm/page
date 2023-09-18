@@ -12,10 +12,10 @@ aside {
   background-color: lightgray;
 }
 
-.grid-container {
+/* .grid-container {
   display: grid;
   gap: 5vw 10vw;
-}
+}*/
 
 * {box-sizing: border-box;}
 .menu {float: left;
