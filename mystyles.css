@@ -1,6 +1,6 @@
 body {
   background-color: #F4D9A4;
-  background-image: src("webpage_img/_MG_0302.jpg");
+  background-image: url("webpage_img/_MG_0302.jpg");
   background-repeat: no-repeat;
 }
 .standard{
